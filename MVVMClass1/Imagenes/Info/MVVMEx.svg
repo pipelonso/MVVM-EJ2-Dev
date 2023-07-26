@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500.70099"
+   height="1122.5197"
+   viewBox="0 0 132.47736 296.99999"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="MVVMEx.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="1.0066639"
+     inkscape:cx="232.94767"
+     inkscape:cy="673.51181"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="221.83088,159.27602"
+       orientation="0,-1"
+       id="guide182"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke-width:0.395225;stroke-linecap:round;stroke-linejoin:round"
+       id="rect340"
+       width="132.47736"
+       height="297.00092"
+       x="4.0429686e-06"
+       y="-0.00025121027" />
+    <rect
+       style="fill:#3d3d3d;fill-opacity:1;stroke-width:0.320585;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2871"
+       width="65.41938"
+       height="65.791077"
+       x="33.528992"
+       y="19.328201" />
+    <rect
+       style="fill:#3d3d3d;fill-opacity:1;stroke-width:0.320585;stroke-linecap:round;stroke-linejoin:round"
+       id="rect3237"
+       width="65.41938"
+       height="65.791077"
+       x="33.528992"
+       y="118.57237" />
+    <rect
+       style="fill:#3d3d3d;fill-opacity:1;stroke-width:0.320585;stroke-linecap:round;stroke-linejoin:round"
+       id="rect3239"
+       width="65.41938"
+       height="65.791077"
+       x="33.528992"
+       y="217.81654" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.9175px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';fill:#ffffff;fill-opacity:1;stroke-width:0.300001;stroke-linecap:round;stroke-linejoin:round"
+       x="47.129303"
+       y="56.6647"
+       id="text4747"><tspan
+         sodipodi:role="line"
+         id="tspan4745"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.300001"
+         x="47.129303"
+         y="56.6647">VISTA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.38291px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';fill:#ffffff;fill-opacity:1;stroke-width:0.202255;stroke-linecap:round;stroke-linejoin:round"
+       x="37.845634"
+       y="154.57069"
+       id="text5531"><tspan
+         sodipodi:role="line"
+         id="tspan5529"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.202255"
+         x="37.845634"
+         y="154.57069">VISTAMODELO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.9175px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';fill:#ffffff;fill-opacity:1;stroke-width:0.300001;stroke-linecap:round;stroke-linejoin:round"
+       x="43.303349"
+       y="255.15305"
+       id="text5535"><tspan
+         sodipodi:role="line"
+         id="tspan5533"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.300001"
+         x="43.303349"
+         y="255.15305">MODELO</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.445768,118.24335 3.792912,6.04014 3.487277,-6.04014 z"
+       id="path9934" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       d="m 66.238682,85.119278 -2e-6,33.124072"
+       id="path7769"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.445768,217.81654 3.792912,6.04014 3.487277,-6.04014 z"
+       id="path10794" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       d="m 66.238682,184.69246 -2e-6,33.12408"
+       id="path10796"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.71959px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.531098;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="76.051521"
+       y="97.994789"
+       id="text14206"><tspan
+         sodipodi:role="line"
+         id="tspan14204"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.531098;stroke-opacity:1"
+         x="76.051521"
+         y="97.994789">Comandos y</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.531098;stroke-opacity:1"
+         x="76.051521"
+         y="106.39428"
+         id="tspan14208">Acciones</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68.485911,101.19535 h 4.646263 V 91.345272 H 115.32024 V 110.02325 H 73.225099 l -10e-7,-5.50227"
+       id="path15072"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.07144px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.558907;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="74.353577"
+       y="197.99915"
+       id="text15891"><tspan
+         sodipodi:role="line"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.558907"
+         x="74.353577"
+         y="197.99915"
+         id="tspan16044">Solicitud en</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.558907"
+         x="74.353577"
+         y="206.83844"
+         id="tspan16048">VistaModelo</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 69.624142,199.98971 h 2.129077 v -8.91088 h 50.200971 v 18.52968 H 71.753219 l 0,-4.94325"
+       id="path16050"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 33.528991,76.141479 H 13.66728 l -0.313399,51.702791 h 20.17511"
+       id="path17557"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 33.528991,174.49227 H 13.66728 l -0.313399,51.7028 h 20.17511"
+       id="path19035"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.68702px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.60756;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-127.27596"
+       y="20.851627"
+       id="text19039"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan19037"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.60756"
+         x="-127.27596"
+         y="20.851627">Notificación</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.60756"
+         x="-127.27596"
+         y="30.460402"
+         id="tspan19080">  O Retorno</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.68702px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.60756;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-225.62675"
+       y="20.851627"
+       id="text19043"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan19041"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.60756"
+         x="-225.62675"
+         y="20.851627">Notificación</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.60756"
+         x="-225.62675"
+         y="30.460402"
+         id="tspan19082"> o Retorno</tspan></text>
+  </g>
+</svg>

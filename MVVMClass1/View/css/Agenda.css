@@ -1,0 +1,34 @@
+﻿body {
+    
+}
+
+.botones {
+    background-color: rgb(26, 26, 26);
+    border: solid;
+    border-color: lightcyan;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+
+.moveslow {
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+.cajas{
+
+    border : solid;
+    border-radius : 5px;
+    border-width : 1px;
+    background-color : rgb(232, 232, 232);
+
+
+}
+
+.addbox{
+
+    background-color : rgb(44, 40, 40);
+
+}

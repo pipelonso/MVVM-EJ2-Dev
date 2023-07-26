@@ -1,0 +1,35 @@
+﻿body {
+    background-color: lightslategray;
+    background-image: url('../../imagenes/bg/moutains-green.png');
+    background-size: cover;
+}
+
+
+.regbox{
+    opacity : 90%;
+    border : solid;
+    border-radius : 5px;
+    border-color : lightgray;
+    background-color : lightgray;
+}
+.textboxes{        
+    border : solid;
+    border-color : gray;
+    background-color : lightcyan;
+    border-width : 2px;
+    border-radius : 5px;
+}
+
+.botones {
+    border: solid;
+    border-color: gray;
+    background-color: cornsilk;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.botones:hover{
+
+    background-color : dimgray;
+
+}

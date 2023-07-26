@@ -1,0 +1,73 @@
+﻿body {
+    background-image: url('../../imagenes/mvvmbacks/bg_khaki.svg');
+    background-size : cover;
+}
+
+.botones{
+
+    background-color : rgb(26, 26, 26);
+    border : solid;
+    border-color : lightcyan;
+    border-width : 1px;
+    border-radius : 10px;
+    padding:10px;
+    color:white;
+
+}
+
+.botones:hover{
+
+    animation-name : butt;
+    animation-direction : normal;
+    animation-duration : 1s;
+    animation-fill-mode : forwards;
+
+}
+
+
+
+@keyframes butt{
+
+    0%{
+
+        border-color : white;
+
+    }
+    100%{
+
+        border-color: red;
+
+    }
+
+}
+
+.borderlesanim{
+
+    border : solid;
+    border-width : 1px;
+    border-color : black;
+
+}
+
+    .borderlesanim:hover {
+        animation: animborder;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-duration: 2s;
+    }
+
+@keyframes animborder {
+
+    0%{
+
+        border-color : black;
+
+    }
+    100%{
+
+        border-color : white;
+
+    }
+
+}
+

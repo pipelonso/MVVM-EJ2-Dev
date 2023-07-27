@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data;
+using System.Web.Management;
 
 namespace MVVMClass1.Model
 {
@@ -58,6 +59,34 @@ namespace MVVMClass1.Model
 
         }
 
+        public int mtdAddTaskWithMail(string correo , ClRecordatorioEM objRecordatorioEM)
+        {
+
+            ClProcesos objSQL = new ClProcesos();
+            string insert = "InsertTasks '"+ correo +"' , '"+objRecordatorioEM.Recordatorio+"' , '"+objRecordatorioEM.Fecha+"'";
+            int res = objSQL.mtdComandos(insert);
+            return res;
+
+        }
+
+        public int mtdEditTaskWithId(int id, ClRecordatorioEM objRecordatorioEM)
+        {
+
+            ClProcesos objSQL = new ClProcesos();
+            string edit = "EditTaskWithId "+id+" , '"+objRecordatorioEM.Recordatorio+"' , '"+objRecordatorioEM.Fecha+"'";
+            int res = objSQL.mtdComandos(edit);
+            return res;
+
+        }
+
+        public int mtdDeleteTaskWithId(int id) {
+
+            ClProcesos objSQl = new ClProcesos();
+            string edit = "DeleteTaskWithId " + id;
+            int res = objSQl.mtdComandos(edit);
+            return res;
+
+        }
 
     }
 }

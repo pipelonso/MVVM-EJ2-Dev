@@ -40,10 +40,9 @@
                             <p class="text-white">Agregar una nota a la agenda</p>
                             <asp:TextBox ID="txtNota" runat="server" TextMode="MultiLine" CssClass="w-100 cajas"></asp:TextBox>
                             <p class="text-white">Selecciona la fecha de recordatorio</p>
-                            <asp:TextBox ID="txtFecha" runat="server" TextMode="DateTimeLocal" CssClass="w-100 cajas"></asp:TextBox>   
-                            <asp:Button ID="btnAddTask" runat="server" Text="Añadir Nota" CssClass="w-100 my-2 cajas" />
+                            <asp:TextBox ID="txtFecha" runat="server" TextMode="DateTimeLocal"  CssClass="w-100 cajas"></asp:TextBox>   
+                            <asp:Button ID="btnAddTask" runat="server" Text="Añadir Nota" CssClass="w-100 my-2 cajas" OnClick="btnAddTask_Click"/>
                     </div>
-
                 </div>
 
 

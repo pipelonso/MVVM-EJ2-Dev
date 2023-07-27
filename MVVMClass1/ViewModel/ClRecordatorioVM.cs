@@ -59,6 +59,40 @@ namespace MVVMClass1.ViewModel
 
         }
 
+        public int mtdAddTaskByMail(string correo , ClRecordatorioEVM objRecordatorioEVM)
+        {
+
+            RecordatorioM objRecordatorioM = new RecordatorioM();
+            ClRecordatorioEM objRecordatorioEM = new ClRecordatorioEM();
+            objRecordatorioEM.Recordatorio = objRecordatorioEVM.Recordatorio;
+            objRecordatorioEM.Fecha = objRecordatorioEVM.Fecha;
+
+            int res = objRecordatorioM.mtdAddTaskWithMail(correo , objRecordatorioEM);
+
+            return res;
+        }
+
+        public int mtdEditTaskWithId(int id , ClRecordatorioEVM objRecordatorioEVM)
+        {
+
+            RecordatorioM objRecordatorioM = new RecordatorioM();
+            ClRecordatorioEM objRecordatorioEM = new ClRecordatorioEM();
+            objRecordatorioEM.Recordatorio = objRecordatorioEVM.Recordatorio;
+            objRecordatorioEM.Fecha = objRecordatorioEVM.Fecha;
+
+            int res = objRecordatorioM.mtdEditTaskWithId(id , objRecordatorioEM);
+            return res;
+        }
+
+        public int mtdDeleteWithId(int id)
+        {
+            RecordatorioM objRecordatorioM = new RecordatorioM();
+            int res = objRecordatorioM.mtdDeleteTaskWithId(id);
+            return res;
+
+        }
+
+
 
 
     }

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml.Schema;
 
 namespace MVVMClass1.View
 {
@@ -36,7 +37,7 @@ namespace MVVMClass1.View
                     List<ClRecordatorioEVM> listaRecordario = objRecordarioVM.mtdGetTaskByUserMail(Session["Usuario"].ToString());
                     RpRecordatorio.DataSource = listaRecordario;
                     RpRecordatorio.DataBind();
-
+                    
 
                 }
 
@@ -56,6 +57,31 @@ namespace MVVMClass1.View
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/View/Login.aspx");
+        }
+
+        protected void btnAddTask_Click(object sender, EventArgs e)
+        {
+            ClRecordatorioVM objRecordatorioVm = new ClRecordatorioVM();
+            ClRecordatorioEVM objRecordatorioEVM = new ClRecordatorioEVM();
+            objRecordatorioEVM.Recordatorio = txtNota.Text;
+            
+            string textoFecha = txtFecha.Text;
+            DateTime FechaFormat;
+            DateTime.TryParseExact(textoFecha, "yyyy-MM-ddTHH:mm", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out FechaFormat);
+            string newfecha = FechaFormat.ToString("yyyy-MM-dd HH:mm:ss");
+            
+            objRecordatorioEVM.Fecha = newfecha;
+
+            int res = objRecordatorioVm.mtdAddTaskByMail(Session["Usuario"].ToString() , objRecordatorioEVM);
+
+            if (res == 1) {
+
+                List<ClRecordatorioEVM> listaRecordario = objRecordatorioVm.mtdGetTaskByUserMail(Session["Usuario"].ToString());
+                RpRecordatorio.DataSource = listaRecordario;
+                RpRecordatorio.DataBind();
+
+            }
+
         }
     }
 }

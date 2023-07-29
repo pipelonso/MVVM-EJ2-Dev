@@ -32,3 +32,30 @@
     background-color : rgb(44, 40, 40);
 
 }
+.deleteb {
+
+    background-color : rgb(255, 0, 0);
+
+
+}
+
+.editb{
+
+    background-color : rgb(56, 124, 83)
+
+}
+
+.roundleft{
+
+    /*border-top-left-radius : 10px;*/
+    border-bottom-left-radius : 10px;
+
+}
+
+.rounderight{
+
+    border-top-right-radius : 8px;
+    /*border-bottom-right-radius : 10px;*/
+
+
+}

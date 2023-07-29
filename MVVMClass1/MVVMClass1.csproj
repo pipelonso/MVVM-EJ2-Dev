@@ -106,6 +106,8 @@
     <Content Include="Imagenes\MVVMBacks\bg_khaki.svg" />
     <Content Include="Imagenes\MVVMBacks\bg_title.svg" />
     <Content Include="Imagenes\MVVMBacks\ProgresBar.svg" />
+    <Content Include="Imagenes\UI\EditBtn.svg" />
+    <Content Include="Imagenes\UI\DeleteBtn.svg" />
     <Content Include="Imagenes\UI\plus-circle-fill.svg" />
     <Content Include="Imagenes\UserPicks\Default.jpg" />
     <Content Include="View\js\Agenda.js" />

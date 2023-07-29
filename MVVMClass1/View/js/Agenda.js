@@ -29,3 +29,32 @@ function hideContent() {
     contenido.style.display = "none";
 
 }
+
+function hideDelete() {
+
+    var DeletePanel = document.getElementById("DeletePanel");
+    DeletePanel.style.display = "none";
+
+
+}
+
+function showDelete() {
+
+    var DeletePanel = document.getElementById("DeletePanel");
+    DeletePanel.style.display = "block";
+
+}
+
+function HideEdit() {
+
+    var editPanel = document.getElementById("editPanel");
+    editPanel.style.display = "none";
+
+}
+
+function ShowEdit() {
+
+    var editPanel = document.getElementById("editPanel");
+    editPanel.style.display = "block";
+
+}

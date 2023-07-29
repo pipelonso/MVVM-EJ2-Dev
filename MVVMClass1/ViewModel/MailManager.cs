@@ -47,6 +47,7 @@ namespace MVVMClass1.ViewModel
                 }
                 catch (Exception ex)
                 {
+                    Console.WriteLine(ex.ToString());
                     // Maneja la excepción o realiza algún registro de error
                     intentos++;
                 }

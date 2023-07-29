@@ -12,6 +12,7 @@
 <body>
     <form id="form1" runat="server">
 
+        
 
         <div class="navbar p-2 bg-dark">
             <h3 class="nav-item text-white">Agenda</h3>
@@ -24,7 +25,33 @@
                 <asp:Button ID="btnRegister" runat="server" Text="Registrarse" CssClass="botones" OnClick="btnRegister_Click" />
             </div>
         </div>
+
+        
+        
+
         <div id="contenido">
+
+            <div id="DeletePanel" style="position: sticky; background-color: rgb(55, 0, 0); z-index : 2999999; top:0px; border-bottom : double; border-bottom-color : black" class ="w-100 p-2 text-white">
+                <h2 class="text-center">CONFIRMAR ELIMINACIÓN</h2>
+                <p class="text-center">¿Estas seguro de eliminar este registro?</p>
+                <div class="navbar">
+                <asp:Button CssClass="nav-item botones col-5" ID="btnCancelDelete" runat="server" Text="Cancelar" />
+                <asp:Button CssClass="nav-item col-5 deletebtn" ID="btnConfirmDelete" runat="server" Text="Eliminar" />
+                </div>
+                
+            </div>
+
+
+            <div id="editPanel" style="position: sticky; background-color: rgb(34, 34, 34); z-index : 19999; top:0px; border-bottom : double; border-bottom-color : black" class ="w-100 p-2 text-white">
+                <h3>Editar</h3>
+                <p>Editar nota de la agenda</p>
+                <asp:TextBox ID="txtNotaEdit" runat="server" TextMode="MultiLine" CssClass="w-100 cajas"></asp:TextBox>
+                <p>Editar Fecha del Recordatorio / Nota</p>
+                <asp:TextBox ID="txtFechaEdit" runat="server" TextMode="DateTimeLocal" CssClass="w-100 cajas"></asp:TextBox>
+                <asp:Button ID="btnEditTask" runat="server" Text="Editar Nota" CssClass="w-100 my-2 cajas"  />
+            </div>
+
+
             <div class="p-2" id="">
                 <div class="navbar justify-content-start">
 
@@ -45,6 +72,7 @@
                         </div>
                     </div>
 
+                    
 
                     <asp:Repeater ID="RpRecordatorio" runat="server">
                         <ItemTemplate>

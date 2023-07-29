@@ -28,7 +28,7 @@ namespace MVVMClass1.View
                 lblUserName.Text = objUsuarioEVM.Nombre;
                 UserPic.ImageUrl = objUsuarioEVM.Imagen;
                 
-                ScriptManager.RegisterStartupScript(this, GetType(), "HideSession", "document.getElementById('SesionControls').style.display = 'none';", true);
+                ScriptManager.RegisterStartupScript(this, GetType(), "HideSession", "document.getElementById('SesionControls').style.display = 'none'; hideDelete(); HideEdit();", true);
                 
                 if (!IsPostBack)
                 {

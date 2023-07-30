@@ -60,6 +60,15 @@ namespace MVVMClass1.View
         protected global::System.Web.UI.WebControls.Button btnRegister;
 
         /// <summary>
+        /// Control lblDeleteId.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDeleteId;
+
+        /// <summary>
         /// Control btnCancelDelete.
         /// </summary>
         /// <remarks>
@@ -76,6 +85,15 @@ namespace MVVMClass1.View
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnConfirmDelete;
+
+        /// <summary>
+        /// Control lblEditId.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblEditId;
 
         /// <summary>
         /// Control txtNotaEdit.

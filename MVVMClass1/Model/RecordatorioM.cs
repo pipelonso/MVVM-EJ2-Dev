@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Data;
 using System.Web.Management;
+using System.Web.UI.WebControls;
 
 namespace MVVMClass1.Model
 {
@@ -87,6 +88,48 @@ namespace MVVMClass1.Model
             return res;
 
         }
+
+        public List<ClRecordatorioEM> mtdGetExpired(string Correo)
+        {
+
+            string proc = "GetExpired '" + Correo + "'";
+            ClProcesos objSQL = new ClProcesos();
+            DataTable datos = objSQL.mtdConsultas(proc);
+
+            List<ClRecordatorioEM> listaRecordatorios = new List<ClRecordatorioEM>();
+
+            for (int i = 0; i < datos.Rows.Count; i++)
+            {
+
+                ClRecordatorioEM recordatorio = new ClRecordatorioEM();
+                recordatorio.IdRecordatorio = int.Parse(datos.Rows[i]["IdRecordatorio"].ToString());
+                recordatorio.Recordatorio = datos.Rows[i]["Recordatorio"].ToString();
+                recordatorio.Fecha = datos.Rows[i]["Fecha"].ToString();
+                recordatorio.Llamado = int.Parse(datos.Rows[i]["Llamado"].ToString());
+                listaRecordatorios.Add(recordatorio);
+
+            }
+
+            return listaRecordatorios;
+        }
+
+        public void mtdUpdateExpired(List<ClRecordatorioEM> listaRecordatorios)
+        {
+            string updated = "";
+            ClProcesos objSQL = new ClProcesos();
+            for (int i = 0; i < listaRecordatorios.Count; i++)
+            {
+
+                listaRecordatorios[i].Llamado += 1;
+                updated += "UPDATE Recordatorio SET Llamado = " + listaRecordatorios[i].Llamado.ToString() + " WHERE IdRecordatorio = " + listaRecordatorios[i].IdRecordatorio + ";\n";
+                
+            }
+
+            int res = objSQL.mtdComandos(updated);
+
+
+        }
+
 
     }
 }

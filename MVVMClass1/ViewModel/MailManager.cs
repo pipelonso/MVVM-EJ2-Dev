@@ -1,6 +1,7 @@
 ﻿using MailKit.Net.Smtp;
 using MailKit.Security;
 using MimeKit;
+using MVVMClass1.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,27 @@ namespace MVVMClass1.ViewModel
 {
     public class MailManager
     {
+
+        public void mtdMailListBuilder(string correo ,List<ClRecordatorioEM> listaRecordatorios)
+        {
+
+            string nombre = "AGENDA";
+            string Asunto = "Recuerda estas cosas de tu Agenda";
+            string cuerpo = "";
+
+            for (int i = 0; i < listaRecordatorios.Count; i++)
+            {
+                cuerpo += "Recordatorio " + (i + 1) + "\n";
+                cuerpo += listaRecordatorios[i].Recordatorio + "\n";
+                cuerpo += "Fecha: " + listaRecordatorios[i].Fecha + "\n";
+                cuerpo += "------------------------------------------------ " + "\n";
+            }
+
+            mtdsendMail(nombre, correo , Asunto, cuerpo);    
+
+
+        }
+
 
         public void mtdsendMail(string nombre, string correo, string asunto, string cuerpo)
         {

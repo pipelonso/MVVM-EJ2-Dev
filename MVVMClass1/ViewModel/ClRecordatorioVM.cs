@@ -92,7 +92,26 @@ namespace MVVMClass1.ViewModel
 
         }
 
+        public void mtdRemindMe(string correo)
+        {
 
+            RecordatorioM objRecordatorioM = new RecordatorioM();
+            List<ClRecordatorioEM> ListaRecordatorioEM = objRecordatorioM.mtdGetExpired(correo);
+
+            if (ListaRecordatorioEM.Count != 0)
+            {
+
+                MailManager mailManager = new MailManager();
+                mailManager.mtdMailListBuilder(correo, ListaRecordatorioEM);
+                objRecordatorioM.mtdUpdateExpired(ListaRecordatorioEM);
+
+            }
+
+
+            
+
+
+        }
 
 
     }

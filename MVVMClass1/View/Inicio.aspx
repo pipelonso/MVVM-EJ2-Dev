@@ -65,6 +65,22 @@
 
         </div>
 
+        <div class="p-2 bg-dark">
+
+            <div class="botones p-2 my-2 text-center">
+                <a href="https://github.com/pipelonso/MVVM_EJ2_Base" class="text-decoration-none" >Puedes visitar el repositorio de github de esta base desde aqui</a>
+            </div>
+
+            <div class="botones p-2 my-2 text-center">
+                <a class="text-decoration-none " href="https://github.com/pipelonso/MVVM-EJ2-Dev">Puedes obtener la versión desarrollada desde aqui si presentas algun problema en tu desarrollo puedes usarla para basarte en su contenido</a>
+            </div>
+
+            <div class="botones my-2 text-center">                
+                <a class="text-decoration-none " href="https://drive.google.com/drive/folders/1W_D6T73qaD4Rci6JUMLz68GJ0ZCSVEVe?usp=drive_link">Puedes acceder a los proyectos desde Google Drive con este enlace</a>
+            </div>
+
+        </div>
+
 
     </form>
     <script src="Bootstrap/Scripts/bootstrap.min.js"></script>

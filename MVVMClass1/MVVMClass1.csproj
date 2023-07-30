@@ -110,6 +110,7 @@
     <Content Include="Imagenes\UI\DeleteBtn.svg" />
     <Content Include="Imagenes\UI\plus-circle-fill.svg" />
     <Content Include="Imagenes\UserPicks\Default.jpg" />
+    <Content Include="Recursos Externos\MVVMAgenda.sql" />
     <Content Include="View\js\Agenda.js" />
     <Content Include="View\sweetAlert\Scripts\sweetalert-dev.js" />
     <Content Include="View\sweetAlert\Scripts\sweetalert.min.js" />
